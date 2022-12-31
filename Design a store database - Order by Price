@@ -1,0 +1,21 @@
+CREATE TABLE Alison (ID NUMERIC, NAME text, QUANTITY INTEGER, COLOR text, PRICE numeric);
+
+INSERT into Alison VALUES
+(1, "Shirt", 3, "Blue", "$9.00"),
+(2, "Skirt", 9, "Black", "$4.00"),
+(3, "Dress", 12, "Red", "$14.00"),
+(4, "Capris", 9, "Red", "$12.00"),
+(5, "Capris", 5, "Blue", "$10.00"),
+(6, "Shirt", 8, "Blue", "$11.00"),
+(7, "Shirt", 4, "Pink", "$9.00"),
+(8, "Dress", 7, "Pink", "$13.00"),
+(9, "Dress", 8, "Blue", "$5.00"),
+(10, "Shorts", 9, "Blue", "$8.00"),
+(11, "Shorts", 5, "Black", "$8.00"),
+(12, "Pants", 3, "Black", "$15.00"),
+(13, "Pants", 5, "Red", "$17.00"),
+(14, "Pants", 7, "Green", "$8.00"),
+(15, "Pants", 5, "Pink", "$6.00");
+
+--display the database ordered by price.
+SELECT * FROM Alison ORDER BY PRICE;
